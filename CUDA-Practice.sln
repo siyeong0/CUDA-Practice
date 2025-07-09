@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CUDA-Practice", "CUDA-Practice\CUDA-Practice.vcxproj", "{029C68E9-7D01-F65A-6845-FA8360288447}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX0_AddingSmallVectors", "EX0_AddingSmallVectors\EX0_AddingSmallVectors.vcxproj", "{0589EF08-0657-9A55-4B0A-35E23F81FAA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX1_AddingVectors", "EX1_AddingVectors\EX1_AddingVectors.vcxproj", "{D7F9CB28-4AE2-7FF2-713D-07F1DC49CE5A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX2_VectorReduction", "EX2_VectorReduction\EX2_VectorReduction.vcxproj", "{00E44D8D-32AF-C4C5-C0DE-FCA2F85FC5D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX3_MatMul", "EX3_MatMul\EX3_MatMul.vcxproj", "{C86D78FC-71FC-44B6-057B-FF72027EC4E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX4MatMul(SharedMemory)", "EX4MatMul(SharedMemory)\EX4MatMul(SharedMemory).vcxproj", "{B59EBD81-6F8B-F14D-C8E4-C05356D1DC15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{029C68E9-7D01-F65A-6845-FA8360288447}.Debug|x64.ActiveCfg = Debug|x64
-		{029C68E9-7D01-F65A-6845-FA8360288447}.Debug|x64.Build.0 = Debug|x64
-		{029C68E9-7D01-F65A-6845-FA8360288447}.Release|x64.ActiveCfg = Release|x64
-		{029C68E9-7D01-F65A-6845-FA8360288447}.Release|x64.Build.0 = Release|x64
+		{0589EF08-0657-9A55-4B0A-35E23F81FAA7}.Debug|x64.ActiveCfg = Debug|x64
+		{0589EF08-0657-9A55-4B0A-35E23F81FAA7}.Debug|x64.Build.0 = Debug|x64
+		{0589EF08-0657-9A55-4B0A-35E23F81FAA7}.Release|x64.ActiveCfg = Release|x64
+		{0589EF08-0657-9A55-4B0A-35E23F81FAA7}.Release|x64.Build.0 = Release|x64
+		{D7F9CB28-4AE2-7FF2-713D-07F1DC49CE5A}.Debug|x64.ActiveCfg = Debug|x64
+		{D7F9CB28-4AE2-7FF2-713D-07F1DC49CE5A}.Debug|x64.Build.0 = Debug|x64
+		{D7F9CB28-4AE2-7FF2-713D-07F1DC49CE5A}.Release|x64.ActiveCfg = Release|x64
+		{D7F9CB28-4AE2-7FF2-713D-07F1DC49CE5A}.Release|x64.Build.0 = Release|x64
+		{00E44D8D-32AF-C4C5-C0DE-FCA2F85FC5D1}.Debug|x64.ActiveCfg = Debug|x64
+		{00E44D8D-32AF-C4C5-C0DE-FCA2F85FC5D1}.Debug|x64.Build.0 = Debug|x64
+		{00E44D8D-32AF-C4C5-C0DE-FCA2F85FC5D1}.Release|x64.ActiveCfg = Release|x64
+		{00E44D8D-32AF-C4C5-C0DE-FCA2F85FC5D1}.Release|x64.Build.0 = Release|x64
+		{C86D78FC-71FC-44B6-057B-FF72027EC4E6}.Debug|x64.ActiveCfg = Debug|x64
+		{C86D78FC-71FC-44B6-057B-FF72027EC4E6}.Debug|x64.Build.0 = Debug|x64
+		{C86D78FC-71FC-44B6-057B-FF72027EC4E6}.Release|x64.ActiveCfg = Release|x64
+		{C86D78FC-71FC-44B6-057B-FF72027EC4E6}.Release|x64.Build.0 = Release|x64
+		{B59EBD81-6F8B-F14D-C8E4-C05356D1DC15}.Debug|x64.ActiveCfg = Debug|x64
+		{B59EBD81-6F8B-F14D-C8E4-C05356D1DC15}.Debug|x64.Build.0 = Debug|x64
+		{B59EBD81-6F8B-F14D-C8E4-C05356D1DC15}.Release|x64.ActiveCfg = Release|x64
+		{B59EBD81-6F8B-F14D-C8E4-C05356D1DC15}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
