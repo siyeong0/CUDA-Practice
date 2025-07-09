@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B59EBD81-6F8B-F14D-C8E4-C05356D1DC15}</ProjectGuid>
-    <RootNamespace>EX4MatMul_SharedMemory_</RootNamespace>
+    <ProjectGuid>{C8F58CA7-9D45-483D-276C-E43B33F63246}</ProjectGuid>
+    <RootNamespace>EX4_MatMul_SharedMemory_</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

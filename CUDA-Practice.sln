@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX0_AddingSmallVectors", "EX0_AddingSmallVectors\EX0_AddingSmallVectors.vcxproj", "{0589EF08-0657-9A55-4B0A-35E23F81FAA7}"
 EndProject
@@ -11,7 +11,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX2_VectorReduction", "EX2_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX3_MatMul", "EX3_MatMul\EX3_MatMul.vcxproj", "{C86D78FC-71FC-44B6-057B-FF72027EC4E6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX4MatMul(SharedMemory)", "EX4MatMul(SharedMemory)\EX4MatMul(SharedMemory).vcxproj", "{B59EBD81-6F8B-F14D-C8E4-C05356D1DC15}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX4_MatMul(SharedMemory)", "EX4_MatMul(SharedMemory)\EX4_MatMul(SharedMemory).vcxproj", "{C8F58CA7-9D45-483D-276C-E43B33F63246}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{C86D78FC-71FC-44B6-057B-FF72027EC4E6}.Debug|x64.Build.0 = Debug|x64
 		{C86D78FC-71FC-44B6-057B-FF72027EC4E6}.Release|x64.ActiveCfg = Release|x64
 		{C86D78FC-71FC-44B6-057B-FF72027EC4E6}.Release|x64.Build.0 = Release|x64
-		{B59EBD81-6F8B-F14D-C8E4-C05356D1DC15}.Debug|x64.ActiveCfg = Debug|x64
-		{B59EBD81-6F8B-F14D-C8E4-C05356D1DC15}.Debug|x64.Build.0 = Debug|x64
-		{B59EBD81-6F8B-F14D-C8E4-C05356D1DC15}.Release|x64.ActiveCfg = Release|x64
-		{B59EBD81-6F8B-F14D-C8E4-C05356D1DC15}.Release|x64.Build.0 = Release|x64
+		{C8F58CA7-9D45-483D-276C-E43B33F63246}.Debug|x64.ActiveCfg = Debug|x64
+		{C8F58CA7-9D45-483D-276C-E43B33F63246}.Debug|x64.Build.0 = Debug|x64
+		{C8F58CA7-9D45-483D-276C-E43B33F63246}.Release|x64.ActiveCfg = Release|x64
+		{C8F58CA7-9D45-483D-276C-E43B33F63246}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
