@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX3_MatMul", "EX3_MatMul\EX
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX4_MatMul(SharedMemory)", "EX4_MatMul(SharedMemory)\EX4_MatMul(SharedMemory).vcxproj", "{C8F58CA7-9D45-483D-276C-E43B33F63246}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX5_Stream", "EX5_Stream\EX5_Stream.vcxproj", "{C6FF8D75-4625-7FA6-74F2-EAA991D0BCAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -39,6 +41,10 @@ Global
 		{C8F58CA7-9D45-483D-276C-E43B33F63246}.Debug|x64.Build.0 = Debug|x64
 		{C8F58CA7-9D45-483D-276C-E43B33F63246}.Release|x64.ActiveCfg = Release|x64
 		{C8F58CA7-9D45-483D-276C-E43B33F63246}.Release|x64.Build.0 = Release|x64
+		{C6FF8D75-4625-7FA6-74F2-EAA991D0BCAE}.Debug|x64.ActiveCfg = Debug|x64
+		{C6FF8D75-4625-7FA6-74F2-EAA991D0BCAE}.Debug|x64.Build.0 = Debug|x64
+		{C6FF8D75-4625-7FA6-74F2-EAA991D0BCAE}.Release|x64.ActiveCfg = Release|x64
+		{C6FF8D75-4625-7FA6-74F2-EAA991D0BCAE}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
